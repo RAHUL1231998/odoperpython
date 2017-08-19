@@ -1,6 +1,4 @@
-def _init_(x):
-                
-        def conv(x):
+def conv(x):
                 a = dict(s.split('=')for s in x.split(';'))
                 return a;
 
